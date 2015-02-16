@@ -36,7 +36,7 @@ function VideoswiperBookmarklet() {
 
     if (!!!(typeof jQuery=='function') && !window.loadingJQ) {
         window.loadingJQ = true;
-        lateLoader('http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js','MF_jq',function(){
+        lateLoader('https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js','MF_jq',function(){
             return!!(typeof jQuery=='function');
         }, VideoswiperBookmarklet);
         return false;
